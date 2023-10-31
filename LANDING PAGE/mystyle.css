@@ -1,0 +1,109 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display:flex;
+            flex-direction: column;
+            gap:5px;
+
+        }
+
+        .navcontainer {
+            width: 100vw;
+            height: 90px;
+            background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+
+
+
+
+        }
+
+        #navlist {
+            width: 100vw;
+            height: 90px;
+            padding: 15px;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* align-content: center; */
+
+
+            background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+        }
+
+        nav ul li div a {
+            text-decoration: none;
+            font-size: 2rem;
+            color: white;
+        }
+
+        #navheading {
+            font-size: 2.8rem;
+            color: whitesmoke;
+        }
+
+        .ullist {
+            display: flex;
+            gap: 40px;
+        }
+
+        .footerbox {
+            /* color: whitesmoke; */
+
+            width: 100vw;
+            background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .footerbox p {
+            color: whitesmoke;
+            font-size: 1.5rem;
+
+        }
+
+        .contentbox {
+            /* color:beige; */
+            width: 60%;
+            margin: auto;
+            /* border: 1px solid black; */
+             display:flex;
+            flex-direction: column;
+            gap:30px;
+            box-shadow: 0px 0px 20px black;
+        }
+        
+        .items{
+            display:flex;
+            gap:20px;
+            justify-content: space-around;
+            align-items: center;
+            padding: 3rem;
+        }
+        .rightbox img{
+            height:350px;
+            width:350px;
+            border-radius: 1rem;
+            transition: all 0.4s linear 0s;
+        }
+        .rightbox img:hover{
+            transform:scale(1.1);
+        }
+
+        .leftbox{
+            display:flex;
+            flex-direction: column;
+            gap:15px;
+        }
+       
+
